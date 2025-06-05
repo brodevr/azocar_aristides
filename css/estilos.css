@@ -311,13 +311,13 @@ nav {
 }
 
 .tarjeta1 {
-  background-image: url(/img/casos\ de\ exito\ \(1\).jpg);
+  background-image: url(./img/casos-de-exito-1.jpg);
 }
 .tarjeta2 {
-  background-image: url(/img/casos\ de\ exito\ \(2\).jpg);
+  background-image: url(./img/casos-de-exito-2.jpg);
 }
 .tarjeta3 {
-  background-image: url(/img/casos\ de\ exito\ \(3\).jpg);
+  background-image: url(./img/casos-de-exito-3.jpg);
 }
 
 .tarjeta1:hover,
