@@ -102,14 +102,23 @@ nav {
   border: 1px solid #ccc;
 }
 
-.text-gradient {
-  background: linear-gradient(to bottom, #414141, #7f10ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-  font-size: 72px;
-}
 
+    .text-gradient {
+      font-size: 5rem;
+      font-weight: bold;
+      background: linear-gradient(to right, #ff00cc, #3333ff);
+      background-size: 800% 800%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      animation: moverGradiente 8s ease infinite;
+    }
+
+    @keyframes moverGradiente {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
 
 /* Hero */
 .container1 {
@@ -159,7 +168,7 @@ nav {
   gap: 20px;
 }
 
-/* Sobre Nosotros */
+
 /* SOBRE NOSOTROS */
 .container2 {
   padding: var(--espaciado-seccion) var(--espaciado-padding);

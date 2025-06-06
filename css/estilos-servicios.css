@@ -1,0 +1,107 @@
+/* HERO SERVICIOS */
+.banner-servicios {
+  position: relative;
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-servicios img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.titulo-banner-servicios {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Texto con degradado */
+.text-gradient {
+  font-size: 3.5rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #ff00cc, #3333ff); /* Colores originales */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* SOBRE NOSOTROS */
+.container2 {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+.parrafo_nosotros {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.grid-container-nosotros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.item-nosotros1 {
+  background: url('../img/nosotros.jpg') no-repeat center center/cover;
+  min-height: 300px;
+  border-radius: 10px;
+}
+
+.item-nosotros2 {
+  font-size: 1rem;
+}
+
+.texto_quienes_somos {
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.boton-contacto {
+  display: inline-block;
+  background-color: #ff00cc;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.boton-contacto:hover {
+  background-color: #cc0099;
+}
+
+/* FOOTER */
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.menu-footer ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.menu-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-footer a:hover {
+  text-decoration: underline;
+}
